@@ -2,7 +2,7 @@
 #include<Windows.h>
 #include<float.h>
 #include <stdlib.h>
-#include<time.h>
+#include<time.h>//
 #include<stdint.h>
 DWORD WINAPI timea();
 int DianJiShiChang;
