@@ -2,7 +2,7 @@
 #include<Windows.h>
 #include<float.h>
 #include <stdlib.h>
-#include<time.h>//
+#include<time.h>
 #include<stdint.h>
 DWORD WINAPI timea();
 int DianJiShiChang;
@@ -273,7 +273,6 @@ int main(void)
 			}
 		}
 	}
-}//2020.4.19
 
 DWORD WINAPI timea()
 {
