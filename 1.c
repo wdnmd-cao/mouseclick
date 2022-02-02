@@ -261,10 +261,6 @@ int main(void)
 			{
 				return 0;
 			}
-			else if (model ==! 0)
-			{
-			break;
-			 }
 			else
 			{
 				printf("\n请重新输入\n");
@@ -274,20 +270,3 @@ int main(void)
 		}
 	}
 
-DWORD WINAPI timea()
-{
-	for (;;)
-	{
-		if (zhuantai > 0)
-		{
-			Sleep(1);
-			zhuantai--;
-			printf("%d", zhuantai);
-		}
-		else
-		{
-			zhuantai=0;
-			return(0);
-		}
-	}
-}
